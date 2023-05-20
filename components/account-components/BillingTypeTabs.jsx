@@ -11,6 +11,10 @@ const BillingTypeTabs = ({ setSelectedBillingType, selectedBillingType }) => {
             selectedBillingType === "monthly"
               ? "rgb(124 58 237)"
               : "rgba(124 58 237, 0)",
+          color:
+            selectedBillingType === "monthly"
+              ? "rgb(255 255 255)"
+              : "rgb(15 19 26)",
         }}
         whileHover={{ backgroundColor: "rgb(167 139 250)" }}
         transition={{ duration: 0.25, type: "tween" }}
@@ -25,6 +29,10 @@ const BillingTypeTabs = ({ setSelectedBillingType, selectedBillingType }) => {
             selectedBillingType === "annual"
               ? "rgb(124 58 237)"
               : "rgba(124 58 237, 0)",
+          color:
+            selectedBillingType === "annual"
+              ? "rgb(255 255 255)"
+              : "rgb(15 19 26)",
         }}
         whileHover={{ backgroundColor: "rgb(167 139 250)" }}
         transition={{ duration: 0.25, type: "tween" }}
